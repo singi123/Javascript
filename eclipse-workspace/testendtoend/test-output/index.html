@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Practice_Suite" class="navigator-link ">
-                    <span>C:\Users\sandh\eclipse-workspace\endtoenddemo\testng.xml</span>
+                    <span>C:\Users\sandh\eclipse-workspace\testendtoend\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -102,7 +102,7 @@
                     <div class="method-list-content passed suite-Practice_Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Practice_Suite" title="endtoendproject.endtoenddemo.Sumtest" class="method navigator-link" hash-for-method="addNumb">addNumb</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Practice_Suite" title="build.endtoend.testendtoend.Sumtest" class="method navigator-link" hash-for-method="numbSumtest">numbSumtest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Practice_Suite -->
@@ -120,14 +120,14 @@
           <div class="suite-Practice_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">endtoendproject.endtoenddemo.Sumtest</span>
+              <span class="class-name">build.endtoend.testendtoend.Sumtest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="addNumb">
-                  </a> <!-- addNumb -->
-                  <span class="method-name">addNumb</span>
+                  <a name="numbSumtest">
+                  </a> <!-- numbSumtest -->
+                  <span class="method-name">numbSumtest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -135,16 +135,16 @@
         </div> <!-- panel Practice_Suite -->
         <div panel-name="test-xml-Practice_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\sandh\eclipse-workspace\endtoenddemo\testng.xml</span>
+            <span class="header-content">C:\Users\sandh\eclipse-workspace\testendtoend\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;Practice Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;Regerssion&quot;&gt;
+  &lt;test name=&quot;Regerssion&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;endtoendproject.endtoenddemo.Sumtest&quot;/&gt;
+      &lt;class name=&quot;build.endtoend.testendtoend.Sumtest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Regerssion --&gt;
 &lt;/suite&gt; &lt;!-- Practice Suite --&gt;
@@ -186,14 +186,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'addNumb')
-data.setCell(0, 2, 'endtoendproject.endtoenddemo.Sumtest')
-data.setCell(0, 3, 9);
+data.setCell(0, 1, 'numbSumtest')
+data.setCell(0, 2, 'build.endtoend.testendtoend.Sumtest')
+data.setCell(0, 3, 10);
 window.suiteTableData['Practice_Suite']= { tableData: data, tableDiv: 'times-div-Practice_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 9 ms</span>
+              <span class="suite-total-time">Total running time: 10 ms</span>
               <div id="times-div-Practice_Suite">
               </div> <!-- times-div-Practice_Suite -->
             </div> <!-- times-div -->
@@ -219,9 +219,9 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">endtoendproject.endtoenddemo.Sumtest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">build.endtoend.testendtoend.Sumtest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">addNumb</span>
+                <span class="method-name">numbSumtest</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
