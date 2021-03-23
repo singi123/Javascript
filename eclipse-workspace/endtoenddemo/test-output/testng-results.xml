@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-03-23T14:44:07Z" name="Practice Suite" finished-at="2021-03-23T14:44:07Z" duration-ms="45">
+    <groups>
+    </groups>
+    <test started-at="2021-03-23T14:44:07Z" name="Regerssion" finished-at="2021-03-23T14:44:07Z" duration-ms="45">
+      <class name="endtoendproject.endtoenddemo.Sumtest">
+        <test-method signature="addNumb()[pri:0, instance:endtoendproject.endtoenddemo.Sumtest@6989da5e]" started-at="2021-03-23T14:44:07Z" name="addNumb" finished-at="2021-03-23T14:44:07Z" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNumb -->
+      </class> <!-- endtoendproject.endtoenddemo.Sumtest -->
+    </test> <!-- Regerssion -->
+  </suite> <!-- Practice Suite -->
+</testng-results>
