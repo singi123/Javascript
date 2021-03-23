@@ -6,6 +6,6 @@ import org.testng.annotations.Test;
 public class Sumtest {
   @Test
   public void numbSumtest() {
-	  Assert.assertEquals(7, 7);
+	  Assert.assertEquals(7, 8);
   }
 }
